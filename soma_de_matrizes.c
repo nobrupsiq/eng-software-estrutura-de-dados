@@ -13,10 +13,10 @@ int main() {
 
   int matrizC[2][3] = 0;
 
-  for(int i = 0; i < 2; i++) {
-    for(int j = 0; j < 3; j++) {
-      matrizC[i][j] = matrizA[i][j] + matrizB[i][j]; 
-      printf("%d ", matrizC[i][j]);
+  for(int linha = 0; linha < 2; linha++) {
+    for(int coluna = 0; coluna < 3; coluna++) {
+      matrizC[linha][coluna] = matrizA[linha][coluna] + matrizB[linha][coluna]; 
+      printf("%d ", matrizC[linha][coluna]);
     }
     printf("\n");
   }
