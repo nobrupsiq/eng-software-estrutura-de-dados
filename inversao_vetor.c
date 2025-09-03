@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  int lista[] = {1, 2, 3, 4, 5};
+  int lista[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
   int tamanho = sizeof(lista) / sizeof(lista[0]);
 
   for (int i = 0; i < tamanho; i++) printf("%d ", lista[i]);
